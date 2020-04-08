@@ -43,8 +43,54 @@ function out(imaging){
     imaging.src = "img/1.jpg";
     } */
 /* 14 */
-function go(){
+/* function go(){
    let inp = document.getElementById('input');
    inp.style.color = 'red';
    inp.style.width = '400px';
+} */
+/* 15 */
+/* function yes(){
+    let inp = document.getElementById('input');
+    inp.style.display = 'none';
 }
+function no(){
+    let inp = document.getElementById('input');
+    inp.style.display = 'inline-block';
+} */
+/* 16 */
+/* function yes(){
+    let inp = document.getElementById('input');
+    inp.style.width = '300px';
+    inp.style.height = '50px';
+    inp.style.color= 'red';
+    inp.value = 'Ой, я поменяла текст и CSS';
+    inp.style.borderRadius = '50px';
+} */
+/* 17 */
+/* function yes(){
+    let inp = document.getElementById('input');
+    let inp2 = document.getElementById('input2');
+    inp.value = 'О, теперь на меня больше не нажать!';
+    inp.disabled = true;
+    inp2.style.display = 'inline-block';
+}
+function no(){
+    let inp = document.getElementById('input');
+    let inp2 = document.getElementById('input2');
+    inp2.style.display = 'none';
+    inp.value = 'О, на меня снова можно нажимать';
+    inp.disabled = false;
+} */
+/* 18 */
+/* let i = 1;
+function yes(){
+    let inp = document.getElementById('input'); 
+    inp.value = i;
+    i++;   
+} */
+/* 19 */
+/* function yes(){
+    let inp = document.getElementById('input');
+    inp.value = 'Ой, теперь я плаваю справа';
+    inp.style.cssFloat = 'right';
+} */
