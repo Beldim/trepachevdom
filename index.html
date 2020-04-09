@@ -5,13 +5,29 @@
   <title rel="icon" href="/img/favicon.ico" type="image/x-icon">Пример веб-страницы</title>
  </head>
  <body>
-    <style>	input[type="text"] {
+    <style>	input {
       width: 300px;
    }</style>
     <!-- <p><img src="img/1.jpg" id="img" onmouseover ="over(this)" onmouseout="out(this)"></p> -->    
-    <input type="text" id="input" placeholder="Введите число" class="eee www ddd">
-    <input type="text" id="input2" value="Здесь появится результат" disabled='true'>
-    <button type="button" onclick="yes()">Нажми на меня</button>
+    <input type="text" id="input">
+    <br><br>
+    <input type="submit" onclick="add('+')" value="Я добавлю +"><br>
+    <input type="submit" onclick="add('-')" value="Я добавлю -"><br>
+    <input type="submit" onclick="add('/')" value="Я добавлю /"><br>
+    <input type="submit" onclick="add('*')" value="Я добавлю *"><br>
+    <br><br>
+    <input type="submit" onclick="add('1')" value="1"><br>
+    <input type="submit" onclick="add('2')" value="2"><br>
+    <input type="submit" onclick="add('3')" value="3"><br>
+    <input type="submit" onclick="add('4')" value="4"><br>
+    <input type="submit" onclick="add('5')" value="5"><br>
+    <input type="submit" onclick="add('6')" value="6"><br>
+    <input type="submit" onclick="add('7')" value="7"><br>
+    <input type="submit" onclick="add('8')" value="8"><br>
+    <input type="submit" onclick="add('9')" value="9"><br>
+    <input type="submit" onclick="add('0')" value="0"><br>
+   <!--     <input type="text" id="input2" value="Здесь появится результат" disabled='true'>
+    <button type="button" onclick="yes()">Нажми на меня</button> -->
     <!-- <button type="button" onclick="no()">Нажми потом на меня</button> -->
  <script src="/js/test.js"></script>
   <h1>Скрипт прошел!</h1>

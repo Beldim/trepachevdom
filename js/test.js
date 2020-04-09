@@ -124,3 +124,12 @@ function yes(){
     }
 } */
 /* 24 */
+/* function clickCursor(elem){
+    elem.disabled = 'true';
+    elem.style.cursor = 'crosshair';
+} */
+/* 25 */
+/* function add(elem){
+    let inp = document.getElementById('input');
+    inp.value += elem;
+} */
