@@ -94,3 +94,33 @@ function yes(){
     inp.value = 'Ой, теперь я плаваю справа';
     inp.style.cssFloat = 'right';
 } */
+/* 20 */
+/* function yes(){
+    let inp = document.getElementById('input');
+    inp.value = 'Мои css классы:' + inp.className;
+} */
+/* 21 */
+/* function yes(){
+    let inp = document.getElementById('input');
+    let inp2 = document.getElementById('input2');
+    let tmp = inp.value;
+    inp.value = inp2.value;
+    inp2.value = tmp; 
+} */
+/* 22 */
+/* function yes(){
+    let inp = document.getElementById('input');
+    let inp2 = document.getElementById('input2');
+    inp2.value = Math.pow(inp.value, 2);
+} */
+/* 23 */
+/* function yes(){
+    let inp = document.getElementById('input');
+    let inp2 = document.getElementById('input2');
+    if (!isNaN(inp.value)){
+        inp2.value = Math.pow(inp.value, 2);    
+    } else {
+        alert('Введено не число!!!');        
+    }
+} */
+/* 24 */
