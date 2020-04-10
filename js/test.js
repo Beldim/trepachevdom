@@ -133,3 +133,26 @@ function yes(){
     let inp = document.getElementById('input');
     inp.value += elem;
 } */
+/* Задачи на работу с элементами страницы в JavaScript */
+/* 1 */
+/* function buttonClick(){
+    let elem = document.getElementById('elem');
+    elem.innerHTML = 'Теперь я <b>Жирный</b>';
+} */
+/* 2 */
+/* function buttonClick(){
+    let elem = document.getElementById('elem');
+    elem.innerHTML = '<h3>Абзац превратился в h3!</h3>';
+} */
+/* 3 */
+/* function buttonClick(){
+    let elem = document.getElementById('elem');
+    elem.outerHTML = '<h3>'+elem.innerHTML+'</h3>';
+} */
+/* 4 */
+/* function buttonClick(){
+    let inp = document.getElementById('input');
+    let inp2 = document.getElementById('input2');
+    let sum = document.getElementById('sum');
+    sum.innerHTML = Number(inp.value) + Number(inp2.value);
+} */
