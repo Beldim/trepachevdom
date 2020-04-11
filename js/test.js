@@ -156,3 +156,93 @@ function yes(){
     let sum = document.getElementById('sum');
     sum.innerHTML = Number(inp.value) + Number(inp2.value);
 } */
+/* 5 */
+/* function go(){
+    let tags = document.getElementsByTagName('p');
+    for (let tag of tags){
+        tag.innerHTML = "Ку-ку";
+    }
+} */
+/* 6 */
+/* function go(){
+    let elems = document.getElementsByClassName('www');
+    i = 1;
+    for (let elem of elems){
+        elem.innerHTML = i;
+        i++;
+        }
+    } */
+/* 7 */
+/* function go(){
+    let elems = document.querySelectorAll('.www');
+    i = 1;
+    for (let elem of elems){
+        elem.innerHTML = i;
+        i++;
+    }
+} */
+/* 8 */
+/* function go(){
+    let elem = document.querySelector('.www-r');
+    let info = elem.getAttribute('class');
+    alert(info);
+} */
+/* 9 */
+/* function info(){
+    let elem = document.getElementById('test');
+    let info = elem.getAttribute('class');
+    alert(info);
+}
+function del(){
+    let elem = document.getElementById('test');
+    let del = elem.removeAttribute('class');
+    alert('Удален атрибут класс');
+} */
+/* 10 */
+/* function info(){
+    let elem = document.getElementById('test');
+    let info = elem.getAttribute('class');
+    alert(info);
+}
+function del(){
+    let elem = document.getElementById('test');
+    elem.setAttribute('class', 'new-class');
+} */
+/* 11 */
+/* function go(elem){
+    let text = document.getElementById('result');
+    text.innerHTML = elem.value;
+} */
+/* 12 */
+/* function info(){
+    let elems = document.querySelectorAll('a');
+    for (i = 0; i < elems.length; i++){
+        elems[i].innerHTML = elems[i].innerHTML + '('+elems[i].getAttribute('href')+')';
+    }
+} */
+/* 13 */
+/* function start(){
+    elem.disabled = 'true';
+    elem.value = 'О на меня нельзя больше нажать';
+    let text = document.getElementById('text');
+    text.style.color = 'red';
+    text.innerHTML = 'Привет, мир!';
+} */
+/* 14 */
+/* function start(){
+elems = document.querySelectorAll('.my-class');
+let i = 0;
+for (let elem of elems){
+elem.innerHTML = i;
+i++;
+} 
+} */
+/* 15 */
+/* function start(){
+    elems = document.querySelectorAll('.my-class');
+    let i = 0;
+    for (let elem of elems){
+        elem.innerHTML = i + '.' + elem.innerHTML;
+        i++;
+    }
+} */
