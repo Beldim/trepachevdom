@@ -246,3 +246,40 @@ i++;
         i++;
     }
 } */
+/* Задачи на даты в JavaScript */
+/* 1 */
+/* let date = new Date();
+document.write(date.getDay() +'<br>'); */
+/* 2 */
+/* let date = new Date();
+document.write(date.getMonth() + '<br>'); */
+/* 3 */
+/* let date = new Date();
+document.write(date.getFullYear()); */
+/* 4 */
+/* let date = new Date();
+function zero(num){    
+    if (num >= 0 && num < 10){
+        return '0' + num;
+    } else {
+        return num;
+    }
+}
+document.write(date.getHours() + ':' + date.getMinutes() + ':' + date.getSeconds() +' ' + zero(date.getDate()) + '.' + zero(date.getMonth()+1) + '.' + date.getFullYear()); */
+/* 5 */
+/* let date = new Date();
+document.write(date.getDay()); */
+/* 6 */
+/* let date = new Date();
+function showDay(num){
+    let days = ['Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб'];
+    return days[num];
+}
+document.write(showDay(date.getDay())); */
+/* 7 */
+/* let date = new Date(07, 01, 2015)
+function showDay(num){
+    let days = ['Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб'];
+    return days[num];
+}
+document.write(showDay(date.getDay())); */
