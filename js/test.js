@@ -283,3 +283,36 @@ function showDay(num){
     return days[num];
 }
 document.write(showDay(date.getDay())); */
+/* 8 */
+/* let date = new Date();
+let result = Math.floor(date.getTime()/(1000*60));
+console.log(result); */
+/* 9 */
+/* let date = new Date();
+let now = date.getTime();
+let time = Date.parse('1988-03-01T00:00:00');
+let result = (now - time)/(1000*60*60);
+document.write('<br>' + result); */
+/* 10 */
+/* let date = new Date();
+let now = date.getTime();
+let time = Date.parse('2020-04-13T00:00:00');
+let result = (now - time)/(1000);
+document.write('<br>' + result); */
+/* 11 */
+/* let date = new Date();
+let endday = new Date(date.getFullYear(), date.getMonth(), date.getDate(), 24, 59, 59);
+let result = Math.floor((endday.getTime()-date.getTime())/1000);
+document.write('<br>' + result); */
+/* 12 */
+/* function happyday(elem){
+    let nowDate = new Date();
+    let arr = elem.value.split('-');
+    let result = '';
+    if (arr[1] >= nowDate.getMonth()+1) { //ДР в текущем году еще будет (сравнение месяцев)
+    result = Date.parse(String(nowDate.getFullYear()) + '-' + String(arr[1]) + '-' + String(arr[2]) + 'T00:00:00');
+    } else { //ДР будет только в след.году
+    result = Date.parse(String(nowDate.getFullYear()+1) + '-' + String(arr[1]) + '-' + String(arr[2]) + 'T00:00:00');
+    }
+elem.value = Math.floor((result - nowDate.getTime())*0.001/86400); //60*60*24
+} */
