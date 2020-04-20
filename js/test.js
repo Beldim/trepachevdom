@@ -316,3 +316,113 @@ document.write('<br>' + result); */
     }
 elem.value = Math.floor((result - nowDate.getTime())*0.001/86400); //60*60*24
 } */
+/* Задачи на работу с таймерами в JavaScript */
+/* 1 */
+/* function start(){
+    window.setInterval(timer, 1000);
+}
+function timer(){
+    let elem = document.getElementById('test');
+    elem.innerHTML = parseInt(elem.innerHTML)+1;
+} */
+/* 2 */
+/* function start(){
+    window.timerID=window.setInterval(timer, 500);
+    document.getElementById('stop').disabled = false;
+    document.getElementById('start').disabled = true;
+}
+function timer(){
+    let elem = document.getElementById('test');
+    elem.innerHTML = parseInt(elem.innerHTML)+1;
+}
+function stop(){
+    window.clearInterval(window.timerID);
+    document.getElementById('stop').disabled = true;
+    document.getElementById('start').disabled = false;
+} */
+/* 3 */
+/* function start(){
+    window.timerID=window.setInterval(timer, 500);
+}
+function timer(){
+let elem=document.getElementById('test');
+let date = new Date();
+elem.innerHTML=addZero(date.getHours()) + ':' + addZero(date.getMinutes()) + ':' + addZero(date.getSeconds());
+}
+function addZero(num){
+    if (num < 9){
+        return '0'+num;
+    } else {
+        return num;
+    }
+} */
+/* 4 */
+/* function go(){
+    window.timerID=window.setInterval(timer, 500);
+}
+function timer(){
+    let elem = document.getElementById('test');
+    elem.innerHTML = zero(parseInt(elem.innerHTML)-1);
+}
+function zero(num){
+if (num == 0){
+    window.clearInterval(window.timerID);
+    let click = document.getElementById('click');
+    document.getElementById('stop').innerHTML = 'Отсчет закончен';
+    click.disabled = true;   
+    return num;
+} else {
+    return num;
+}
+} */
+/* 5 */
+/* function go(){
+    window.timerID = window.setInterval(timer, 500);
+}
+function timer(){
+    if (window.number == undefined || window.number == 3){
+        window.number = 0;  
+    } else {
+        window.number = window.number+1;
+        let img = document.getElementById('img');
+        img.src = 'img/smile'+window.number+'.jpg';
+    }  
+} */
+/* 6 */
+/* function go(){
+    window.timerID = window.setInterval(timer, 500);
+}
+function timer(){
+    let img1 = document.getElementById('img1');
+    let img2 = document.getElementById('img2');
+    let img3 = document.getElementById('img3');
+    let tmp = img1.src;
+    img1.src = img2.src;
+    img2.src = img3.src;
+    img3.src = tmp;
+} */
+/* 7 */
+function go(){
+    window.timerID = window.setInterval(timer, 500)
+}
+function timer(){
+    let hours = document.getElementById('hours');
+    let minutes = document.getElementById('minutes');
+    let seconds = document.getElementById('seconds');
+    let now = new Date(); 
+    let minight = new Date(now.getFullYear(), now.getMonth(), (now.getDate()+1), 0, 0, 0);
+    let diff = Math.floor((minight-now)/1000);
+    let hoursRemain = Math.floor(diff/(60*60));
+    let minutesRemain = Math.floor((diff-hoursRemain*60*60)/60);
+    let secondsRemain = Math.floor(diff%60);
+    hours.innerHTML = hoursRemain;
+    minutes.innerHTML = addZero(minutesRemain);
+    seconds.innerHTML = addZero(secondsRemain);    
+}
+function addZero(num){
+    if (num <10) {
+        return '0'+num;
+    } else {
+        return num;
+    }
+}

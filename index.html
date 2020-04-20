@@ -4,7 +4,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <title rel="icon" href="/img/favicon.ico" type="image/x-icon">Пример веб-страницы</title>
  </head>
- <body>
+ <body onload="go()">
     <style>	input {
       width: 150px;
    }
@@ -13,17 +13,40 @@
       }
       .new-class {
          color: blue;
-      }</style>
-    <!-- <p><img src="img/1.jpg" id="img" onmouseover ="over(this)" onmouseout="out(this)"></p> -->    
-<!-- <p id='text' class='my-class'>При нажатии на кнопку текст в абзаце поменяется.</p>
-<p id='text' class='my-class'>При нажатии на кнопку текст в абзаце поменяется.</p>
-<p id='text' class='my-class'>При нажатии на кнопку текст в абзаце поменяется.</p>
-<p id='text' class='my-class'>При нажатии на кнопку текст в абзаце поменяется.</p>
-<p id='text' class='my-class'>При нажатии на кнопку текст в абзаце поменяется.</p>
-<p id='text' class='my-class'>При нажатии на кнопку текст в абзаце поменяется.</p>
-<p id='text' class='my-class'>При нажатии на кнопку текст в абзаце поменяется.</p>
-<p id='text' class='my-class'>При нажатии на кнопку текст в абзаце поменяется.</p> -->
-<input type="text" onmouseout="happyday(this)" value="">
+      }
+      .img {
+         width: 150px;
+         height: 150px;
+      }
+		table {
+         margin: 0px auto;
+         border: 1px solid blue;
+		}
+		td, th {
+			height: 30px;
+         width: 100px;
+         border: 1px solid blue;
+         text-align: center;
+		}
+      </style>
+<!--     <img src="img/smile1.jpg" id="img1" class='img'>
+    <img src="img/smile2.jpg" id="img2" class='img'>
+    <img src="img/smile3.jpg" id="img3" class='img'>  
+<p id='test' >10</p>
+<p id='stop'></p>
+<input type="submit" value="Запустить карусель" onclick="go()" id="click"> -->
+<table>
+<tr>
+   <td>Часы</td>
+   <td>Минуты</td>
+   <td>Секунды</td>
+</tr>
+<tr>
+   <td id='hours'></td>
+   <td id='minutes'></td>
+   <td id='seconds'></td>
+</tr>
+</table>
  <script src="/js/test.js"></script>
   <h1>Скрипт прошел!</h1>
   <p>100% загрузка</p>  
