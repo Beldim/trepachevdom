@@ -402,7 +402,7 @@ function timer(){
     img3.src = tmp;
 } */
 /* 7 */
-function go(){
+/* function go(){
     window.timerID = window.setInterval(timer, 500)
 }
 function timer(){
@@ -425,4 +425,29 @@ function addZero(num){
     } else {
         return num;
     }
+} */
+/* Задачи на продвинутую работу с событиями в JavaScript */
+/* 1 */
+/* let elems = document.getElementsByTagName('img');
+for (i = 0; i < elems.length; i++){
+    elems[i].onclick = func;
 }
+function func(){
+    alert(this.getAttribute('src'));
+} */
+/* 2 */
+/* let elems = document.getElementsByTagName('a');
+for (i = 0; i < elems.length; i++){
+    elems[i].addEventListener('mouseover', func);
+}
+function func(){
+    this.title = this.innerHTML;
+} */
+/* 3 */
+/* let elems = document.getElementsByTagName('a');
+for (i = 0; i < elems.length; i++){
+    elems[i].addEventListener('mouseover', func);
+}
+function func(){
+    this.innerHTML = this.innerHTML + '('+ this.href +')';
+} */
