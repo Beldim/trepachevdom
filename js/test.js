@@ -451,3 +451,39 @@ for (i = 0; i < elems.length; i++){
 function func(){
     this.innerHTML = this.innerHTML + '('+ this.href +')';
 } */
+/* 4 */
+/* let elems = document.getElementsByTagName('a');
+for (i = 0; i < elems.length; i++){
+    elems[i].addEventListener('mouseover', func);
+}
+function func(){
+    this.innerHTML = this.innerHTML + '('+ this.href + ')';
+    this.removeEventListener('mouseover', func);
+} */
+/* 5 */
+/* let elems = document.getElementsByTagName('input');
+let parag = document.getElementById('test');
+for (i = 0; i < elems.length; i++){
+    elems[i].addEventListener('mouseout', func);
+}
+function func(){
+    parag.innerHTML = this.value;
+} */
+/* 6 */
+/* let elems = document.getElementsByTagName('input');
+for (i = 0; i < elems.length; i++){
+    elems[i].addEventListener('click', func);
+}
+function func(){
+    alert(this.value);
+    this.removeEventListener('click', func);
+} */
+/* 7 */
+/* let elems = document.getElementsByTagName('p');
+for (i = 0; i < elems.length; i++){
+    elems[i].addEventListener('click', func);
+}
+function func(){
+    this.innerHTML = Math.pow(this.innerHTML, 2);
+    this.removeEventListener('click', func);
+}  */
