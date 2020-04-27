@@ -487,3 +487,32 @@ function func(){
     this.innerHTML = Math.pow(this.innerHTML, 2);
     this.removeEventListener('click', func);
 }  */
+/* 8 */
+/* let elems = document.getElementsByTagName('input');
+for (i = 0; i < elems.length; i++){
+    elems[i].addEventListener('blur', func);
+}
+function func(){
+    let correctLength = this.dataset.length;
+    let inputDataLength = this.value.length;
+    if (correctLength == inputDataLength) {
+        this.style.borderColor = 'Green';
+    } else {
+        this.style.borderColor = 'Red';
+    }
+} */
+/* 9 */
+/* let elems = document.getElementsByTagName('div');
+for (i = 0; i < elems.length; i++){
+    elems[i].addEventListener('click', setRed);
+}
+function setRed(){
+    this.style.background = 'Red';
+    this.removeEventListener('click', setRed);
+    this.addEventListener('click', setGreen);
+} 
+function setGreen(){
+    this.style.background = 'Green';
+    this.removeEventListener('click', setGreen);
+    this.addEventListener('click', setRed);
+}  */
