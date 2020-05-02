@@ -516,3 +516,31 @@ function setGreen(){
     this.removeEventListener('click', setGreen);
     this.addEventListener('click', setRed);
 }  */
+/* Задачи на продвинутую работу с DOM на JavaScript */
+/* 1 */
+/* let elem = document.querySelector('#elem');
+elem.classList.add('www'); */
+/* 2 */
+/* let elem = document.querySelector('#elem');
+elem.classList.remove('www'); */
+/* 3 */
+/* let elem = document.querySelector('#elem');
+let contain = elem.classList.contains('www');
+console.log(contain); */
+/* 4 */
+/* let elem = document.querySelector('#elem');
+let contain = elem.classList.contains('www');
+if (contain){
+    elem.classList.remove('www');
+} else {
+    elem.classList.add('www');
+} */
+/* 5 */
+/* let elem = document.querySelector('#elem');
+let length = elem.classList.length;
+console.log(length); */
+let elem = document.querySelector('#elem');
+let classNames = elem.classList;
+for (let className of classNames){
+    alert (className);
+}
