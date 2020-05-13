@@ -539,8 +539,27 @@ if (contain){
 /* let elem = document.querySelector('#elem');
 let length = elem.classList.length;
 console.log(length); */
-let elem = document.querySelector('#elem');
+/* 6 */
+/* let elem = document.querySelector('#elem');
 let classNames = elem.classList;
 for (let className of classNames){
     alert (className);
-}
+} */
+/* 7 */
+/* let elem = document.querySelector('#elem');
+elem.style.cssText = 'color: Red; font-size: 30px;'; */
+/* 8 */
+/* function tagInfo(){
+    let elem = document.querySelector('#elem');
+    alert(elem.tagName);
+} */
+/* 9 */
+/* function tagInfo(){
+    let elem = document.querySelector('#elem');
+    alert(elem.tagName.toLowerCase());
+} */
+/* 10 */
+/* let elems = document.querySelectorAll('.www');
+for (i = 0; i < elems.length; i++){
+    elems[i].innerHTML = elems[i].innerHTML + elems[i].tagName.toLowerCase();
+} */
