@@ -563,3 +563,28 @@ elem.style.cssText = 'color: Red; font-size: 30px;'; */
 for (i = 0; i < elems.length; i++){
     elems[i].innerHTML = elems[i].innerHTML + elems[i].tagName.toLowerCase();
 } */
+/* 11 */
+/* let parent = document.querySelector('#parent');
+let li = document.createElement('li');
+li.innerHTML = 'пункт';
+parent.appendChild(li); */
+/* 12 */
+/* let parent = document.querySelector('#parent');
+let array = ['яблоко', 'банан', 'капуста', 'вишня'];
+for (i = 0; i < array.length; i++){
+    let li = document.createElement('li');
+    li.innerHTML = array[i];
+    parent.appendChild(li);
+} */
+/* 13 */
+/* let parent = document.querySelector('#parent');
+let array = ['яблоко', 'банан', 'капуста', 'вишня'];
+for (i = 0; i < array.length; i++){
+    let li = document.createElement('li');
+    li.innerHTML = array[i];
+    li.addEventListener('click', function() {
+		alert(this.innerHTML);
+	});
+    parent.appendChild(li);
+} */
+/* 14 */
