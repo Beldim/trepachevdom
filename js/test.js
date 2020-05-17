@@ -588,3 +588,21 @@ for (i = 0; i < array.length; i++){
     parent.appendChild(li);
 } */
 /* 14 */
+/* let parent = document.querySelector('#parent');
+let elem = document.querySelector('#elem');
+let li = document.createElement('li');
+li.innerHTML = '!!!';
+parent.insertBefore(li, elem); */
+/* 15 */
+/* let elem = document.querySelector('#elem');
+elem.insertAdjacentHTML('beforeBegin', '<span>!!!</span>'); */
+/* 16 */
+/* let elem = document.querySelector('#elem');
+elem.insertAdjacentHTML('afterEnd', '<span>!!!</span>'); */
+/* 17 */
+/* let elem = document.querySelector('#elem');
+elem.insertAdjacentHTML('afterBegin', '<span>!!!</span>'); */
+/* 18 */
+/* let elem = document.querySelector('#elem');
+elem.insertAdjacentHTML('beforeEnd', '<span>!!!</span>'); */
+/* 19 */
