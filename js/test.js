@@ -606,3 +606,30 @@ elem.insertAdjacentHTML('afterBegin', '<span>!!!</span>'); */
 /* let elem = document.querySelector('#elem');
 elem.insertAdjacentHTML('beforeEnd', '<span>!!!</span>'); */
 /* 19 */
+/* let parent = document.querySelector('#parent');
+parent.firstElementChild.style.color = 'Red'; */
+/* 20 */
+/* let parent = document.querySelector('#parent');
+parent.lastElementChild.style.color = 'Red'; */
+/* 21 */
+/* let parent = document.querySelector('#parent');
+let elems = parent.children;
+for (let elem of elems){
+    elem.style.color = 'Red';
+} */
+/* 22 */
+/* let elem = document.querySelector('#elem');
+elem.previousElementSibling.innerHTML = elem.previousElementSibling.innerHTML + '!'; */
+/* 23 */
+/* let elem = document.querySelector('#elem');
+elem.nextElementSibling.innerHTML = elem.nextElementSibling.innerHTML + '!'; */
+/* 24 */
+/* let elem = document.querySelector('#elem');
+elem.nextElementSibling.nextElementSibling.innerHTML = elem.nextElementSibling.nextElementSibling.innerHTML + '!'; */
+/* 25 */
+/* let elem = document.querySelector('#elem');
+elem.parentElement.style.color = 'Red'; */
+/* 26 */
+/* let elem = document.querySelector('#elem');
+elem.parentElement.parentElement.style.color = 'Red'; */
+/* 27 */
