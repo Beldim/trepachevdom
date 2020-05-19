@@ -658,3 +658,26 @@ for (let elem of elems){
 function del(){
     parent.removeChild(this);
 } */
+/* 31 */
+/* function go(){
+    let parent = document.querySelector('#parent');
+    let elem = document.querySelector('#inp');
+    let clone = elem.cloneNode(true);
+    parent.prepend(clone);
+} */
+/* 32 */
+/* let array = ['яблоко', 'банан', 'капуста', 'вишня'];
+let ul = document.createElement('ul');
+let parent = document.querySelector('body');
+for (i=0; i < array.length; i++){
+    let li = document.createElement('li');
+    li.innerHTML = array[i];
+    ul.appendChild(li);
+}
+parent.appendChild(ul); */
+/* 33 */
+/* function clone(){
+    let parent = document.querySelector('#parent');
+    let clone = inp.cloneNode(true);
+    parent.appendChild(clone);
+} */
