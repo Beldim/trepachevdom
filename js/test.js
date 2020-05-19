@@ -633,3 +633,28 @@ elem.parentElement.style.color = 'Red'; */
 /* let elem = document.querySelector('#elem');
 elem.parentElement.parentElement.style.color = 'Red'; */
 /* 27 */
+/* function del(){
+    let parent = document.querySelector('#parent');
+    let child = document.querySelector('#child');
+    parent.removeChild(child);
+} */
+/* 28 */
+/* function del(){
+    let parent = document.querySelector('#parent');
+    parent.removeChild(parent.lastElementChild);
+} */
+/* 29 */
+/* function del(){
+    let parent = document.querySelector('#parent');
+    let child = document.querySelector('#child');
+    parent.removeChild(child);
+} */
+/* 30 */
+/* let parent = document.querySelector('#parent');
+let elems = document.getElementsByTagName('li');
+for (let elem of elems){
+    elem.addEventListener('click', del);
+}
+function del(){
+    parent.removeChild(this);
+} */
