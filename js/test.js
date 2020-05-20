@@ -715,6 +715,19 @@ function go(){
 let btn = document.getElementById('btn');
 btn.addEventListener('click', go);
 function go(){
-    alert(btn.clientLeft);
+    alert(elem.clientLeft);
 } */
 /* 3 */
+/* let elem = document.getElementById('parent');
+let btn = document.getElementById('btn');
+btn.addEventListener('click', go);
+function go(){
+    alert(elem.offsetWidth);
+} */
+/* 4 */
+/* let elem = document.getElementById('parent');
+let btn = document.getElementById('btn');
+btn.addEventListener('click', go);
+function go(){
+    alert(elem.offsetHeight);
+} */
