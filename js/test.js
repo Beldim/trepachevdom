@@ -702,3 +702,19 @@ function go(){
     let elem = btn.parentElement;
     elem.hidden = true;
 } */
+/* Tasks for working with metrics in JavaScript */
+/* 1 */
+/* let elem = document.getElementById('parent');
+let btn = document.getElementById('btn');
+btn.addEventListener('click', go);
+function go(){
+    alert(elem.clientTop);
+} */
+/* 2 */
+/* let elem = document.getElementById('parent');
+let btn = document.getElementById('btn');
+btn.addEventListener('click', go);
+function go(){
+    alert(btn.clientLeft);
+} */
+/* 3 */
