@@ -731,3 +731,25 @@ btn.addEventListener('click', go);
 function go(){
     alert(elem.offsetHeight);
 } */
+/* 5 */
+/* let elem = document.getElementById('parent');
+let btn = document.getElementById('btn');
+btn.addEventListener('click', go);
+function go(){
+    alert(elem.clientWidth);
+} */
+/* 6 */
+/* let elem = document.getElementById('parent');
+let btn = document.getElementById('btn');
+btn.addEventListener('click', go);
+function go(){
+    alert(elem.clientHeight);
+} */
+/* 7 */
+/* let elem = document.querySelector('#parent');
+let btn = document.getElementById('btn');
+btn.addEventListener('click', go);
+function go(){
+    let style = getComputedStyle(elem);
+    alert(style.width +' '+ style.height);
+} */
