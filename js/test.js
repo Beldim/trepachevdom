@@ -681,3 +681,24 @@ parent.appendChild(ul); */
     let clone = inp.cloneNode(true);
     parent.appendChild(clone);
 } */
+/* 34 */
+/* let parent = document.querySelector('#parent');
+let inp = document.querySelector('#inp');
+inp.addEventListener('blur', go)
+function go(){
+let arr = inp.value.split();
+for (i = 0; i < arr.length; i++){
+    let input = document.createElement('input');
+    input.value = arr[i];
+    input.disabled = true;
+    parent.appendChild(input);
+}
+}  */
+/* 35 */
+/* let parent = document.querySelector('#parent');
+let btn = document.querySelector('#btn');
+btn.addEventListener('click', go);
+function go(){
+    let elem = btn.parentElement;
+    elem.hidden = true;
+} */
