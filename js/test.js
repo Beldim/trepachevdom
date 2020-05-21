@@ -753,3 +753,54 @@ function go(){
     let style = getComputedStyle(elem);
     alert(style.width +' '+ style.height);
 } */
+/* 8 */
+/* let elem = document.getElementById('parent');
+let btn = document.getElementById('btn');
+btn.addEventListener('click', go);
+function go(){
+    alert(elem.scrollTop);
+} */
+/* 9 */
+/* let elem = document.getElementById('parent');
+let btn = document.getElementById('btn');
+btn.addEventListener('click', go);
+function go(){
+    alert(elem.scrollLeft);
+} */
+/* 10 */
+/* let elem = document.getElementById('parent');
+let btn = document.getElementById('btn');
+btn.addEventListener('click', go);
+function go(){
+    elem.scrollTop = 100;
+} */
+/* 11 */
+/* let elem = document.getElementById('parent');
+let btn = document.getElementById('btn');
+btn.addEventListener('click', go);
+    function go(){
+        elem.scrollTop += 100;
+} */
+/* 12 */
+/* let elem = document.getElementById('parent');
+let btn = document.getElementById('btn');
+btn.addEventListener('click', go);
+function go(){
+    alert(elem.scrollHeight);
+} */
+/* 13 */
+/* let elem = document.getElementById('parent');
+let btn = document.getElementById('btn');
+btn.addEventListener('click', go);
+function go(){
+    alert(elem.scrollWidth);
+} */
+/* 14 */
+/* let elem = document.getElementById('parent');
+let btn = document.getElementById('btn');
+btn.addEventListener('click', go);
+function go(){
+    let total_height = elem.scrollHeight - 100;
+    elem.scrollTop = total_height;
+} */
+/* 15 */
