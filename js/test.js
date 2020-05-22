@@ -804,3 +804,63 @@ function go(){
     elem.scrollTop = total_height;
 } */
 /* 15 */
+/* let elem = document.getElementById('parent');
+let btn = document.getElementById('btn');
+btn.addEventListener('click', go);
+function go(){
+    alert(pageYOffset);
+} */
+/* 16 */
+/* let elem = document.getElementById('parent');
+let btn = document.getElementById('btn');
+btn.addEventListener('click', go);
+function go(){
+    alert(pageXOffset);
+} */
+/* 17 */
+/* let elem = document.getElementById('parent');
+let btn = document.getElementById('btn');
+btn.addEventListener('click', go);
+function go(){
+    window.scrollTo(300, 500);
+} */
+/* 18 */
+/* let elem = document.getElementById('parent');
+let btn = document.getElementById('btn');
+btn.addEventListener('click', go);
+function go(){
+    window.scrollBy(0, 300);
+} */
+/* 19 */
+/* let elem = document.getElementById('parent');
+let btn = document.getElementById('btn');
+btn.addEventListener('click', go);
+function go(){
+    window.scrollTo(0, document.body.clientHeight);
+} */
+/* 20 */
+/* let elem = document.getElementById('parent');
+let btn = document.getElementById('btn');
+btn.addEventListener('click', go);
+function go(){
+    window.scrollBy(400, 400);
+} */
+/* 21 */
+/* let elem = document.getElementById('parent');
+let btn = document.getElementById('btn');
+btn.addEventListener('click', go);
+function go(){
+    let body = document.documentElement;
+    if (body.scrollHeight - body.scrollTop == body.clientHeight){
+        window.scrollTo(0, 100); 
+    }
+} */
+/* 22 */
+/* let elem = document.getElementById('parent');
+elem.addEventListener('click', go)
+    function go(){
+        let startWidth = this.offsetWidth;
+        let startHeight = this.offsetHeight;
+        this.style.width = startWidth * 2 + 'px';
+        this.style.height = startHeight * 2 + 'px';
+    } */
