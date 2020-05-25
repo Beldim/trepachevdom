@@ -864,3 +864,24 @@ elem.addEventListener('click', go)
         this.style.width = startWidth * 2 + 'px';
         this.style.height = startHeight * 2 + 'px';
     } */
+    /* Tasks for working with metrics for windows in JavaScript */
+/* 1 */
+/* let btn = document.getElementById('btn');
+btn.addEventListener('click', go);
+function go(){
+    alert( document.documentElement.clientHeight);
+} */
+/* 2 */
+/* let but = document.getElementById('btn');
+but.addEventListener('click', go)
+function go(){
+    let heightWindow = window.innerHeight;
+    window.scrollBy(0, heightWindow);
+} */
+/* 3 */
+/* let elem = document.getElementById('parent');
+let but = document.getElementById('btn');
+but.addEventListener('click', go)
+function go(){
+    alert('Текущая прокрутка сверху: ' + window.pageYOffset );
+} */
