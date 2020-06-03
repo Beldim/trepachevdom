@@ -885,3 +885,16 @@ but.addEventListener('click', go)
 function go(){
     alert('Текущая прокрутка сверху: ' + window.pageYOffset );
 } */
+/* Tasks on the basics of working with the Event object in JavaScript */
+/* 1 */
+/* let elem = document.getElementById('elem');
+elem.onmousemove = go;
+function go(event){
+    this.innerHTML = event.clientX + ":" + event.clientY;
+} */
+/* 2 */
+let show = document.getElementById('show');
+window.addEventListener('click', go);
+function go(event){
+    show.style.left = event.
+}
