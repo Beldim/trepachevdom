@@ -893,8 +893,32 @@ function go(event){
     this.innerHTML = event.clientX + ":" + event.clientY;
 } */
 /* 2 */
-let show = document.getElementById('show');
+/* let show = document.getElementById('show');
 window.addEventListener('click', go);
 function go(event){
-    show.style.left = event.
-}
+    show.style.left = event.clientX + 'px';
+    show.style.top = event.clientY + 'px';
+} */
+/* 3 */
+/* let show = document.getElementById('show');
+window.addEventListener('click', go);
+function go(event){
+    show.style.left = (event.clientX - parseInt(window.getComputedStyle(show).width)/2) + 'px';
+    show.style.top = (event.clientY - parseInt(window.getComputedStyle(show).height)/2) + 'px';
+} */
+/* 4 */
+/* let input = document.getElementById('input');
+let result = document.getElementById('result');
+input.onkeypress = go;
+function go(event){
+    let code = event.keyCode;
+    result.innerHTML = code;
+} */
+/* 5 */
+/* let input = document.getElementById('input');
+let result = document.getElementById('result');
+input.onkeypress = go;
+function go(event){
+    let code = String.fromCharCode(event.keyCode);
+    result.innerHTML = code;
+} */
