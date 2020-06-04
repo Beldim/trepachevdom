@@ -922,3 +922,24 @@ function go(event){
     let code = String.fromCharCode(event.keyCode);
     result.innerHTML = code;
 } */
+/* 6 */
+/* let elem = document.getElementById('show');
+elem.addEventListener('click', go);
+function go(event){
+    if (event.ctrlKey){
+        elem.style.backgroundColor = 'blue';
+    }
+} */
+/* 7 */
+/* let elem = document.getElementById('show');
+elem.addEventListener('click', go);
+function go(event){
+    if (event.ctrlKey){
+        this.innerHTML = '1';
+    } if (event.altKey){
+        this.innerHTML = '2';
+    } if (event.shiftKey){
+        this.innerHTML = '3';
+    }
+} */
+/* 8 */
