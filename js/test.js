@@ -943,3 +943,12 @@ function go(event){
     }
 } */
 /* 8 */
+/* let input = document.getElementById('input');
+let result = document.getElementById('result');
+input.onkeypress = go;
+function go(event){
+    if (event.keyCode == 13){
+        result.innerHTML = input.value;
+        input.value = '';
+    }
+} */
