@@ -952,3 +952,20 @@ function go(event){
         input.value = '';
     }
 } */
+/* Tasks for advanced work with the Event object in JavaScript */
+/* 1 */
+/* let button = document.getElementById('button');
+let ul = document.getElementById('elems');
+let li = document.querySelectorAll('#elems li');
+button.addEventListener('click', add)
+function add(event){    
+    let li = document.createElement('li');
+    li.innerHTML = 'пункт';
+    ul.appendChild(li);  
+}
+for (let i = 0; i < li.length; i++) {
+	li[i].addEventListener('click', addSign);
+}
+function addSign() {
+	this.innerHTML = this.innerHTML + '!';
+} */
