@@ -5,8 +5,16 @@
   <title rel="icon" href="/img/favicon.ico" type="image/x-icon">Пример веб-страницы</title>
  </head>
  <body>
-    <style>	input {
-      width: 150px;
+    <style>	
+    button {
+      margin: 10px 0px; 
+      height: 30px;
+      width: 620px;
+   }
+    input {
+      margin: 10px 0px; 
+      height: 30px;
+      width: 300px;
    }
    .my-class {
 			color: black;
@@ -19,22 +27,22 @@
          height: 150px;
       }
 		table {
-         margin: 0px auto;
+         margin: 0px 0px;
          border: 1px solid blue;
 		}
 		td, th {
 			height: 30px;
-         width: 100px;
+         width: 300px;
          border: 1px solid blue;
-         text-align: center;
+         text-align: center;         
 		}
       #show {
-         border: 1px solid red;
-	      width: 100px;
-	      height: 100px;
+         border: 1px solid black;
+	      width: 300px;
+	      height: 300px;
          position: absolute;
-         top: 200px;
-         left: 0px;         
+         top: 0px;
+         left: 100px;         
       }
       </style>
     <!--     <img src="img/smile1.jpg" id="img1" class='img'>
@@ -43,20 +51,18 @@
     <!--     <a href="www.ya.ru" title="">Первая ссылка</a>
     <a href="www.google.com" title="">Вторая ссылка</a>
     <a href="www.maz.by" title="">Третья ссылка</a> -->    
-<!--     <div>
-      <input id="input">  
-       </input>
-       <p><span id="result"></span></p>
-   </div> -->
-   <!-- <div id='show'></div> -->
-   <ul id="elems">
-      <li>1</li>
-      <li>2</li>
-      <li>3</li>
-   </ul>
-   <button id="button">Кнопка</button>
+<div> 
+    <table>
+      <tr><th>Имя</th><th>Фамилия</th></tr>
+      <tr><td id="names">Иван</td><td id="surnames">Иванов</td></tr>
+      <tr><td id="names">Владимир</td><td id="surnames">Пупкин</td></tr>
+   </table>
+   <input id="name" type="text" value="" placeholder="Имя"></input>
+   <input id="surname"  type="text" value="" placeholder="Фамилия"></input>
+   <button id="button">Добавить пользователя</button>
+</div>   
  <script src="/js/test.js"></script>
-  <h1>Скрипт прошел!</h1>
-  <p>100% загрузка</p>  
+<!--   <h1>Скрипт прошел!</h1>
+  <p>100% загрузка</p>  --> 
  </body>
 </html>

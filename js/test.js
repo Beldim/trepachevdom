@@ -969,3 +969,27 @@ for (let i = 0; i < li.length; i++) {
 function addSign() {
 	this.innerHTML = this.innerHTML + '!';
 } */
+/* 2 */
+let name = document.getElementById('name');
+let surname = document.getElementById('surname');
+let button = document.getElementById('button');
+let tdname = document.getElementsByClassName('names');
+let tdsurname = document.getElementsByClassName('surnames');
+let inputname = document.getElementById('name');
+let inputsurname = document.getElementById('surname');
+let table = document.querySelector('table');
+
+function editNameSurName(event) {
+    var target = event.target;
+    if(target.tagName == 'TD' && target.innerHTML != 'Удалить') openingEditor(target);
+    else if(target.tagName == 'TD' && target.innerHTML == 'Удалить') deleteTr(target);
+    }
+button.addEventListener('click', add);
+function add(event){
+    for (let i=0; i <tdname.length; i++) {
+        if (tdname[i].innerHTML.length == 0 && tdsurname[i].innerHTML.length == 0 && inputname.value !=0 && inputsurname.value !=0) {
+        tdname[i].innerHTML = inputname.value;
+        tdsurname[i].innerHTML = inputsurname.value;      
+        inputname.value = '';
+        inputsurname.value = '';
+}
