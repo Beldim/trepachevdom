@@ -970,26 +970,28 @@ function addSign() {
 	this.innerHTML = this.innerHTML + '!';
 } */
 /* 2 */
-let name = document.getElementById('name');
+/* let name = document.getElementById('name');
 let surname = document.getElementById('surname');
 let button = document.getElementById('button');
-let tdname = document.getElementsByClassName('names');
-let tdsurname = document.getElementsByClassName('surnames');
-let inputname = document.getElementById('name');
-let inputsurname = document.getElementById('surname');
 let table = document.querySelector('table');
+let td = document.querySelectorAll('td');
 
-function editNameSurName(event) {
-    var target = event.target;
-    if(target.tagName == 'TD' && target.innerHTML != 'Удалить') openingEditor(target);
-    else if(target.tagName == 'TD' && target.innerHTML == 'Удалить') deleteTr(target);
-    }
 button.addEventListener('click', add);
 function add(event){
-    for (let i=0; i <tdname.length; i++) {
-        if (tdname[i].innerHTML.length == 0 && tdsurname[i].innerHTML.length == 0 && inputname.value !=0 && inputsurname.value !=0) {
-        tdname[i].innerHTML = inputname.value;
-        tdsurname[i].innerHTML = inputsurname.value;      
-        inputname.value = '';
-        inputsurname.value = '';
+    if(name.value!='' && surname.value!=''){
+        let tr = document.createElement('tr');
+        let td1 = document.createElement('td');
+        td1.innerHTML = name.value;
+        let td2 = document.createElement('td');
+        td2.innerHTML = surname.value;
+        table.appendChild(tr);
+        tr.appendChild(td1);
+        tr.appendChild(td2);    
+    }   
+    name.value = '';
+    surname.value = '';
 }
+table.addEventListener('click', edit);
+function edit(event){
+    event.target.innerHTML = prompt();
+}; */
