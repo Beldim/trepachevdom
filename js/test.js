@@ -995,3 +995,28 @@ table.addEventListener('click', edit);
 function edit(event){
     event.target.innerHTML = prompt();
 }; */
+/* Tasks on various useful JavaScript topics */
+/* 1 */
+/* let button = document.getElementById('button');
+button.addEventListener('click', go);
+function go(){
+ let form = document.getElementById('form');
+ let result = Number(0);
+ for (i = 0; i < form.elements.length; i++){     
+     result += Number(form.elements[i].value);     
+ }  
+ console.log(result); 
+} */
+/* 2 */
+/* let button = document.getElementById('button');
+button.addEventListener('click', go);
+function go(){
+    let result = Number(0);
+    let forms = document.forms;
+    for (i = 0; i < forms.length; i++){
+        for (j = 0; j < forms[i].elements.length; j++){
+            result += Number(forms[i].elements[j].value);
+        }        
+    }
+    console.log(result);
+} */
