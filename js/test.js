@@ -1020,3 +1020,108 @@ function go(){
     }
     console.log(result);
 } */
+/* 3 */
+/* let select = document.getElementById('select');
+let input = document.getElementById('input');
+select.addEventListener('click', go);
+function go(){
+    input.value = select.value;
+} */
+/* 4 */
+/* let button = document.getElementById('button');
+button.addEventListener('click', press);
+function press(){
+    let select = document.getElementById('select');
+    let input = document.getElementById('input');
+    select.selectedIndex = input.value;
+} */
+/* 5 */
+ /* let countriesSelect = document.querySelector('#countries');
+let citiesSelect = document.querySelector('#cities');
+ let byCities = document.querySelector('#by');
+let uaCities = document.querySelector('#ua');
+let ruCities = document.querySelector('#ru');
+countries.addEventListener('change', go);
+function go(){
+    if (this.value == 'by') {
+        byCities.style.display = 'inline-block';
+        uaCities.style.display = 'none';
+        ruCities.style.display = 'none';
+    };
+    if (this.value == 'ua') {
+        uaCities.style.display = 'inline-block';
+        byCities.style.display = 'none';
+        ruCities.style.display = 'none';
+    };
+    if (this.value == 'ru') {
+        ruCities.style.display = 'inline-block';
+        uaCities.style.display = 'none';
+        byCities.style.display = 'none';
+    }
+} 
+ */
+/* let data = {
+    Беларусь: ['Минск','Брест','Гомель'],
+    Украина: ['Киев','Херсон','Одесса'],
+    Россия: ['Москва','Воронеж','Салихар'],
+};
+countriesSelect.addEventListener('change', go);
+function go(){    
+    let cities = data[this.value];
+    citiesSelect.length = 0;
+    for(i = 0; i < cities.length; i++){        
+        citiesSelect.add(new Option(cities[i]));
+    }
+} */  
+/* 6 */
+/* let yearSelect = document.querySelector('#year-select');
+let monthSelect = document.querySelector('#month-select');
+let daySelect = document.querySelector('#day-select');
+let date = new Date();
+let currentYear = date.getFullYear();
+fillSelect(yearSelect, range(currentYear-10, currentYear+10));
+fillSelect(monthSelect, range(1, 12));
+fillSelect(daySelect, range(1, 31));
+yearSelect.addEventListener('focus', selectFocusHandle);
+monthSelect.addEventListener('focus', selectFocusHandle);
+daySelect.addEventListener('focus', selectFocusHandle);
+yearSelect.addEventListener('change', selectChangeHandle);
+monthSelect.addEventListener('change', selectChangeHandle);
+daySelect.addEventListener('change', selectChangeHandle);
+
+let yearSelectDefault = yearSelect.value;
+let monthSelectDefault = monthSelect.value;
+let daySelectDefault = daySelect.value;
+
+function selectChangeHandle(){
+  if (checkDate(yearSelect.value, monthSelect.value, daySelect.value)) {
+        console.log('yes');
+        } else {
+            console.log('no');
+            yearSelect.value = yearSelectDefault;
+            monthSelect.value = monthSelectDefault;
+            daySelect.value = daySelectDefault;
+        }
+}
+function selectFocusHandle(){
+    yearSelectDefault = yearSelect.value;
+    monthSelectDefault = monthSelect.value;
+    daySelectDefault = daySelect.value;
+}
+
+function fillSelect(select, arr){
+    arr.forEach(function(elem){
+        select.add(new Option(elem));
+    });
+}
+function range(from, to){
+    let result = [];
+    for(let i = from; i <= to; i++){
+        result.push(i);
+    }
+    return result;
+}
+function checkDate(year, month, day){
+    let date = new Date(year, month-1, day);
+    return date.getFullYear() == year && date.getMonth() == month-1 && date.getDate() == day;
+} */
