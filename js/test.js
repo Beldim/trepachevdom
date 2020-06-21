@@ -1131,3 +1131,46 @@ function checkDate(year, month, day){
 console.log(elem.firstChild);
 console.log(elem.firstElementChild); */
 /* 2 */
+/* let elem = document.getElementById('elem');
+console.log(elem.firstChild.data);
+console.log(elem.firstChild.nodeValue);
+console.log(elem.firstChild.textContent); */
+/* 3 */
+/* let elem = document.getElementById('elem');
+elem.firstChild.data = '!'; */
+/* 4 */
+/* let elem = document.getElementById('elem');
+elem.lastChild.data = ' !'; */
+/* 5 */
+/* let elem = document.getElementById('elem');
+console.log(elem.firstChild.data); */
+/* 6 */
+/* let elem = document.getElementById('elem');
+elem.firstChild.data = '!';
+console.log(elem.firstChild.data); */
+/* 7 */
+/* let elem = document.getElementById('elem');
+for (let i = 0; i < elem.childNodes.length; i++){
+    console.log(elem.childNodes[i]);
+}
+for (let i = 0; i < elem.children.length; i++){
+    console.log(elem.children[i]);
+} */
+/* 8 */
+/* let elem = document.getElementById('elem');
+console.log(elem.firstChild.nextSibling.innerHTML); */
+/* 9 */
+/* let elem = document.getElementById('elem');
+console.log(elem.firstElementChild.nextElementSibling.innerHTML); */
+/* 10 */
+/* let elem = document.getElementById('elem');
+res = elem.firstElementChild.nextElementSibling;
+console.log(res.nextSibling.textContent);
+console.log(res.previousSibling.textContent); */
+/* 11 */
+/* let elem = document.getElementById('elem');
+console.log(elem.firstElementChild.nextElementSibling.nextSibling.textContent); */
+/* 12 */
+/* let elem = document.getElementById('elem');
+console.log(elem.firstElementChild.nextElementSibling.nextSibling.textContent); */
+/* 13 */
