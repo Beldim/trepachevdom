@@ -1125,3 +1125,9 @@ function checkDate(year, month, day){
     let date = new Date(year, month-1, day);
     return date.getFullYear() == year && date.getMonth() == month-1 && date.getDate() == day;
 } */
+/* Working with nodes */
+/* 1 */
+/* let elem = document.getElementById('elem');
+console.log(elem.firstChild);
+console.log(elem.firstElementChild); */
+/* 2 */
