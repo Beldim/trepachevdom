@@ -1174,3 +1174,46 @@ console.log(elem.firstElementChild.nextElementSibling.nextSibling.textContent); 
 /* let elem = document.getElementById('elem');
 console.log(elem.firstElementChild.nextElementSibling.nextSibling.textContent); */
 /* 13 */
+/* let elem = document.getElementById('elem');
+for (let i = 0; i < elem.children.length; i++){
+    console.log(elem.children[i].textContent+' '+elem.children[i].tagName);
+} */
+/* 14 */
+/* let p = document.querySelectorAll('p');
+console.log(p); */
+/* 15 */
+/* let p = document.getElementsByTagName('p');
+console.log(p); */
+/* 16 */
+/* let p = document.querySelectorAll('p');
+p.forEach(element => {
+    console.log(element);
+}); */
+/* 17 */
+/* let p = document.getElementsByTagName('p');
+let arr = Array.from(p);
+arr.forEach(function(child){
+    console.log(child);
+}) */
+/* 18 */
+/* let node = document.createTextNode('!!!');
+let elem = document.getElementById('elem');
+elem.insertBefore(node, elem.childNodes[0]);
+console.log(elem); */
+/* 19 */
+/* let node = document.createTextNode('!!!');
+let elem = document.getElementById('elem');
+elem.insertBefore(node, elem.childNodes[1]);
+console.log(elem); */
+/* 20 */
+/* let elem = document.getElementById('elem');
+elem.removeChild(elem.childNodes[0]); */
+/* 21 */
+/* let elem = document.getElementById('elem');
+elem.childNodes.forEach(function(child){
+    if (child.nodeType == 8 || child.nodeType == 3) {
+        console.log(child)
+    } if (child.nodeType == 1) {
+        console.log(child.innerHTML)
+    }
+}) */
